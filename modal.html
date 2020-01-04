@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="modalcss.css" type="text/css">
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<div class="bg-modal">
+	<div class="modal-content">
+		<div class="login">
+		<center>
+			<form class="login-form" action="dbf/login.dbf.php" method="POST" name="login-form">
+			<table id="logintable">
+			<tr>
+				<td>
+					<h1>Login</h1>
+			<hr>
+		</td>
+	</tr>
+
+			<tr>
+				<td>
+					<label for="email"><b>Email/User ID:</b></label>
+			<input type="email" name="email" placeholder="Enter your Email or User id" required="">
+		</td>
+	</tr>
+
+			<tr>
+				<td>
+					<label for="password"><b>Password:</b></label>
+            <input type="password" name="password" placeholder="Enter your password" required="">
+        </td>
+    </tr>
+
+			<tr> 
+                                 <td >
+					<p class="message" >Not Registered? <a href="signup.php">Sign Up</a></p>
+				
+					<button type="submit" name="loginbtn" class="logbtn"><b>Login</b></button>
+				</td>
+			</tr>
+			
+			
+		</table>
+        </form>
+	</center>
+	</div>
+
+	</div>
+</div>
+
+</body>
+</html>
